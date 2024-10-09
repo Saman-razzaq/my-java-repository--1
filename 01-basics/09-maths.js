@@ -13,6 +13,6 @@ console.log (Math.floor(9.6));
 //to see the lowest value 
 console.log (Math.random());
 //it always give us a value between 0 and 1
-const =10
-const=20
+//const =10
+//const=20
 console.log (Math.floor(Math.random() * ( max - min + 1)) + min )
