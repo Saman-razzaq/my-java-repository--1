@@ -10,3 +10,4 @@ console.log (othernumber.toPrecision(2));
 const array1 = [2, 3, 1];
 console.log(Math.min(...array1));
 console.log(Math.max(...array1));
+console.log(Math.pow(4, 7));
