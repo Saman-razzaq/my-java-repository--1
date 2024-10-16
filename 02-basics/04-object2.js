@@ -35,3 +35,44 @@ const obj4 = {5: "a", 6: "b"}
   // console.log(obj3);
 
    /// database objects are in the form of arry of objects 
+
+   const users = [
+    {
+        id: 1,
+        email: "h@gmail.com"
+    }// object 1
+    ,
+    {
+        id: 1,
+        email: "h@gmail.com"
+    } // obj 2
+    ,
+    {
+        id: 1,
+        email: "h@gmail.com"
+    } //obj 3 ......we can seperate the object by palcing comma 
+    ,
+] // this is array
+
+console.log(darazUser);
+
+ console.log(Object.keys(darazUser));
+console.log(Object.values(darazUser));
+ console.log(Object.entries(darazUser));
+
+ console.log(darazUser.hasOwnProperty('isLoggedIn'));  // hasownproperty means to check either this property present in it or not 
+
+
+ //******************* OBJECT DE STRUCTURING **********
+ const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+course.courseInstructor
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
+
+
+ 
