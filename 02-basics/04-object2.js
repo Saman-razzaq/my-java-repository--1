@@ -65,9 +65,9 @@ console.log(Object.values(darazUser));
 
  //******************* OBJECT DE STRUCTURING **********
  const course = {
-    coursename: "js in hindi",
+    coursename: "js in urdu",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "saman"
 }
 course.courseInstructor
 const {courseInstructor: instructor} = course
