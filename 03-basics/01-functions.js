@@ -19,5 +19,17 @@ function sayMyName(){
     return number1 + number2
 }
 
-const result = addTwoNumbers(3, 5)
-console.log("Result: ", result);
+const result = addTwoNumbers(3, "5")
+//console.log("Result: ", result);
+
+function loginUserMessage (UserName){
+   
+  if(UserName===undefined){
+    console.log("please enter a name");
+
+  }
+
+   return `${UserName} just logged in`
+}
+//console.log(loginUserMessage())
+console.log(loginUserMessage());
