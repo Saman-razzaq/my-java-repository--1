@@ -33,13 +33,32 @@ const balance = 1000
   // nesting // for multiple things
 
   if (balance < 500) {
-         console.log("less than 500");
+        // console.log("less than 500");
      } else if (balance < 750) {
-         console.log("less than 750");
+        // console.log("less than 750");
         
      } else if (balance < 900) {
-         console.log("less than 750");
+       //  console.log("less than 750");
         
      } else {
-       console.log("less than 1200");
+      // console.log("less than 1200");
      }
+
+
+     //interesting case 
+
+     const userLoggedIn = true
+     const debitCard = true
+     const loggedInFromGoogle = false
+     const loggedInFromEmail = true
+     
+
+if (userLoggedIn && debitCard ) // this is for and statement that userloggedIn bhi true ho or debitcard bhi true ho 
+     {
+    console.log("Allow to buy course");
+}
+
+if (loggedInFromGoogle || loggedInFromEmail) // this is for "or" statement that loggesInFromGoogle or LoggedInFromEmail both are optional
+     {
+    console.log("User logged in");
+}
